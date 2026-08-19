@@ -1,8 +1,5 @@
-import org.jetbrains.kotlin.gradle.dsl.JvmTarget
-
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
     alias(libs.plugins.hilt)
     alias(libs.plugins.ksp)
     alias(libs.plugins.detekt)
@@ -11,12 +8,12 @@ plugins {
 
 android {
     namespace = "com.cricut.androidassessment"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.cricut.androidassessment"
         minSdk = 24
-        targetSdk = 36
+        targetSdk = 37
         versionCode = 1
         versionName = "1.0"
 
@@ -41,14 +38,7 @@ android {
     }
 }
 
-kotlin {
-    compilerOptions {
-        jvmTarget.set(JvmTarget.JVM_11)
-    }
-}
-
 detekt {
-    toolVersion = "1.23.8"
     config.setFrom(file("../config/detekt/detekt.yml"))
     baseline = file("$rootDir/config/detekt/baseline.xml")
     buildUponDefaultConfig = true
