@@ -1,3 +1,32 @@
 <resources>
-    <string name="app_name">AndroidAssessment</string>
+    <string name="app_name">Droid Trials</string>
+    <string name="quiz_title">Droid Trials 🤖</string>
+    <string name="loading_quip">Fetching questions from the cloud… (okay, from memory)</string>
+    <string name="question_progress">%1$d of %2$d</string>
+    <string name="cd_quiz_progress">Quiz progress</string>
+    <string name="action_back">Back</string>
+    <string name="action_next">Next</string>
+    <string name="action_finish">Finish</string>
+    <string name="action_review_answers">Review answers</string>
+    <string name="action_play_again">Play again</string>
+    <string name="answer_true">True</string>
+    <string name="answer_false">False</string>
+    <string name="multi_select_hint">Select all that apply</string>
+    <string name="open_ended_label">Your answer</string>
+    <string name="open_ended_placeholder">Type your answer…</string>
+    <string name="open_ended_hint">One word is plenty — the Next button believes in you.</string>
+    <string name="results_title">Quiz complete!</string>
+    <string name="results_score">%1$d / %2$d</string>
+    <string name="score_perfect">Flawless — a true Jetpack Legend! 🏆</string>
+    <string name="score_great">Certified Composable ✨</string>
+    <string name="score_mid">Solidly Lifecycle-Aware 🔄</string>
+    <string name="score_low">Recomposition Rookie 🌱 — everyone starts at API 1</string>
+    <string name="result_your_answer">You answered: %1$s</string>
+    <string name="result_correct_answer">Correct answer: %1$s</string>
+    <string name="result_fun_fact">💡 %1$s</string>
+    <string name="result_unanswered">(no answer)</string>
+    <string name="verdict_correct">✅</string>
+    <string name="verdict_incorrect">❌</string>
+    <string name="cd_correct">Correct</string>
+    <string name="cd_incorrect">Incorrect</string>
 </resources>
